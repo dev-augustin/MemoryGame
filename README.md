@@ -1,4 +1,5 @@
 # MemoryGame
+![wireframe](./wireframe/memoryGameWireframe.png)
 
 ### Game Rules:
 
