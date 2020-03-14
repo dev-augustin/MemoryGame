@@ -1,0 +1,27 @@
+#gameBoard{
+    background: #ccc;
+    border:#999 1px solid;
+    width: 800px;
+    height: 540px;
+    padding: 24px;
+    margin:0px auto;
+}
+
+#gameBoard > div{
+    background-color: aquamarine; 
+    /* background: url("./images/PlainTile.png") no-repeat; */
+    display:flex;
+
+    border: #000 1px solid;
+    width: 66px;
+    height: 66px;
+    float: left;
+    margin: 12px;
+    padding: 20px;
+    font-size: 64 px;
+    cursor:pointer;
+    text-align:center;
+
+
+}
+
