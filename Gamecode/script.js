@@ -136,4 +136,7 @@ function flipTile(tile,val, color1){
 	}
 }
     
-
+function restart(){
+	
+	newBoard();
+}
