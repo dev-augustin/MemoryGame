@@ -4,14 +4,14 @@
        CLICK tile 1 and tile 2
          IF tile 1 and tile2 matches
            MATCHED tiles face up
-           Player 1 continues to play 
+          
          ELSE IF tile 1 && tile 2 do not match
             OPENED tiles face down
      Player 2 starts the game
          CLICK tile 1 and tile 2
          IF tile 1 and tile2 matches
            MATCHED tiles face up
-           Player 1 continues to play 
+        
          ELSE IF tile 1 && tile 2 do not match
             OPENED tiles face down
     
