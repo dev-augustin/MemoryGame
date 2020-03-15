@@ -4,6 +4,7 @@ let gameArray=['#FF6347','#FF6347','#FF0000','#FF0000', '#808000', '#808000', '#
 let gameValues= [];
 let tileIDs=[];
 let tilesFlipped=0;
+let score=0;
 
 // Array.prototype.tileShuffle=function(){
 // 	console.log("arrayProtoShuffle");
@@ -97,6 +98,9 @@ function flipTile(tile,val, color1){
 			console.log("color12"+color12);
 			if(gameValues[0] == gameValues[1]){
 				tilesFlipped += 2;
+				score=score+1;	
+				alert(document.getElementById('score').innerHTML=score);
+				document.getElementById('score').innerHTML=score;
 				// Clear both arrays
 				gameValues = [];
 				tileIDs = [];
