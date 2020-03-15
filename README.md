@@ -35,5 +35,6 @@
 1. Review and add/modify 
 
 ## References: 
-https://www.youtube.com/watch?v=c_ohDPWmsM0
-https://www.kirupa.com/html5/shuffling_array_js.htm
+1. https://www.youtube.com/watch?v=c_ohDPWmsM0
+2. https://www.kirupa.com/html5/shuffling_array_js.htm
+3. https://www.w3schools.com/
