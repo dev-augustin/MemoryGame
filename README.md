@@ -29,8 +29,8 @@
 2. boardGame fuction
 
 ### Saturday
-
-1.HTML/CSS
+1. JS, jQuery - added score display
+2. HTML/CSS
 ### Sunday
 1. Review and add/modify 
 
