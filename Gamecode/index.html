@@ -3,24 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./style.css" rel="stylesheet"/>
+    <title>MemoryGame</title>
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <div id="gameBoard"></div>    
-    <div><input type="button" value="restart" onclick="restart()"/></div>
-    <!-- <div><input type="type" value="score" onclick="score()"/></div> -->
-    <div>Score</div>
+    <div id="gameBoard"> </div> 
+   
+    <!-- <div><input type="text" value="score" id="score"/></div> -->
+    <!-- <div>Score</div> -->
     <!-- <div><input type="text" value="score" id="score"/></div> this does not increment score-->
     <!-- below works -->
-    <div id="score"></div>
+   <!-- <div id="score"></div> -->
+   
+   <button type='reset' id="resetButton" onclick="resetButton()">Reset</button> 
+   
+   <!-- //new code -->
+  
+		<div id="player1Div">
+			<p id="player1P">Player 1</p><span id="player1Score">&nbsp;</span> 
+		</div>	
+		<div id="player2Div">
+			<p id="player2P">Player 2</p>P2Score
+			<span id="player2Score">&nbsp;</span> 
+        </div>
+        <!-- <div id="player2Div" class="col-md-4 col-md-offset-4">
+			<p id="player2P">&nbsp;</p>P2Score
+			<span id="player2Score">&nbsp;</span> 
+		</div> -->
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script> -->
-    
-<script src="./script.js">
+ <!-- <form>
+    <label for="player1Name">Player 1: </label>
+    <input class="form-control" type="text" id="player1Name">
+    <label for="player2Name">Player 2: </label>
+    <input class="form-control" type="text" id="player2Name">
+    </form>	</div>  -->
+   <!-- new add -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
 
-</script>
+<script src="script.js"> </script>
+
+<script>
+	$(document).ready(console.log("hi jQuery"));
+ 	</script>
 <script>
     newBoard()
 </script>
