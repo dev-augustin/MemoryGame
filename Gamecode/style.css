@@ -25,3 +25,30 @@
 
 }
 
+.playerScore{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+   
+#player1Div, #player1Div{
+  
+    background-color: lightblue;
+    height:45px;
+    width:105px;
+    margin:5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 10%;
+} 
+
+#player1Score, #player2Score{
+    background-color: lightblue;
+    height:45px;
+    width:105px;
+    margin:5px  5px 5px 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+
