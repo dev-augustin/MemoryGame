@@ -36,6 +36,12 @@
 2. HTML/CSS
 3. Review and add/modify 
 
+### Monday
+
+1. CSS, HTML, JS, jQuery
+2. Review Game
+
+
 ## References: 
 1. https://www.youtube.com/watch?v=c_ohDPWmsM0
 2. https://www.kirupa.com/html5/shuffling_array_js.htm
