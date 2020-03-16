@@ -29,10 +29,12 @@
 2. boardGame fuction
 
 ### Saturday
-1. JS, jQuery - added score display
+1. JS, jQuery - adding score display
 2. HTML/CSS
 ### Sunday
-1. Review and add/modify 
+1. JS, jQuery - adding player2 and score 
+2. HTML/CSS
+3. Review and add/modify 
 
 ## References: 
 1. https://www.youtube.com/watch?v=c_ohDPWmsM0
