@@ -16,16 +16,28 @@
    <!-- <div id="score"></div> -->
    
    <button type='reset' id="resetButton" onclick="resetButton()">Reset</button> 
-   
+   <!-- <div class="playerScore">
+    <div class="scoreP1"><p>Score</p></div>
+    <div class="player1"><p>Player 1</p></div>
+    <div class="player2"><p>Player 2</p></div>
+    <div class="scoreP2"><p>Score</p></div>
+</div> -->
+<div class="playerScore">
+    <div id="player1Score"><p>Score</p></div>
+    <div id="player1Div"><p>Player 1</p></div>
+    <div id="player1Div"><p>Player 2</p></div>
+    <div id="player2Score"><p>Score</p></div>
+</div>
    <!-- //new code -->
   
-		<div id="player1Div">
+		<!-- <div id="player1Div">
 			<p id="player1P">Player 1</p><span id="player1Score">&nbsp;</span> 
 		</div>	
 		<div id="player2Div">
 			<p id="player2P">Player 2</p>P2Score
 			<span id="player2Score">&nbsp;</span> 
-        </div>
+        </div> -->
+       
         <!-- <div id="player2Div" class="col-md-4 col-md-offset-4">
 			<p id="player2P">&nbsp;</p>P2Score
 			<span id="player2Score">&nbsp;</span> 
@@ -39,9 +51,10 @@
     </form>	</div>  -->
    <!-- new add -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+ 
+<script src="gameArray.js">
 
-<script src="script.js"> </script>
-
+</script>
 <script>
 	$(document).ready(console.log("hi jQuery"));
  	</script>
