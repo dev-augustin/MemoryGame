@@ -1,5 +1,9 @@
+html{
+    background-color: lightsteelblue;
+}
+
 #gameBoard{
-    background: #ccc;
+    background:lightblue;
     border:#999 1px solid;
     width: 800px;
     height: 540px;
@@ -8,11 +12,11 @@
 }
 
 #gameBoard > div{
-    background-color: aquamarine; 
+    background-color:lightslategrey; 
     /* background: url("./images/PlainTile.png") no-repeat; */
     display:flex;
 
-    border: #000 1px solid;
+    border: lightgray 1px solid;
     width: 66px;
     height: 66px;
     float: left;
@@ -33,7 +37,7 @@
     margin: 10px;
 }
    
-#player1Div, #player1Div{
+#player1Div, #player2Div{
   
     background-color: lightblue;
     height:45px;
@@ -41,6 +45,7 @@
     margin:5px 5px 5px 5px;
     text-align: center;
     border-radius: 10%;
+    color: grey;
 } 
 
 #player1Score, #player2Score{
@@ -50,5 +55,13 @@
     margin:5px  5px 5px 5px;
     border-radius: 50%;
     text-align: center;
+  
+    color: grey;
 }
 
+#gameRules, h4{
+    color: grey;
+}
+#resetButton{
+    color: grey;
+}
