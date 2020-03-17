@@ -4,13 +4,14 @@ html{
 #gameHeading{
     text-align:center;
     color:grey;
+    /* font-size:3vw; */
 }
 #gameBoard{
     background:lightblue;
     border:#999 1px solid;
-    width: 800px;
-    height: 540px;
-    padding: 24px;
+    width: 590px;
+    height: 460px;
+    padding: 20px;
     margin:0px auto;
 }
 
@@ -18,14 +19,12 @@ html{
     background-color:lightslategrey; 
     /* background: url("./images/PlainTile.png") no-repeat; */
     display:flex;
-
     border: lightgray 1px solid;
-    width: 66px;
-    height: 66px;
+    width: 50px;
+    height: 50px;
     float: left;
     margin: 12px;
     padding: 20px;
-    font-size: 64 px;
     cursor:pointer;
     text-align:center;
 
@@ -61,10 +60,13 @@ html{
   
     color: grey;
 }
-
-#gameRules, h4{
+#player1Score, #player2Score{
+    color:coral
+}
+#gameRules, h5{
     color: grey;
 }
 #resetButton{
     color: grey;
+    background-color: lightblue;
 }
