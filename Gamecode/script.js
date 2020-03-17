@@ -1,5 +1,5 @@
 
-let gameArray=['#FF6347','#FF6347','#FF0000','#FF0000', '#808000', '#808000', '#00FF00', '#00FF00','#008000', '#008000', '#00FFFF', '#00FFFF','#008080', '#008080', '#FFFFCC', '#FFFFCC', '#000080', '#000080',  '#FF00FF', '#FF00FF','#800080', '#800080',  '#808080', '#808080']
+let gameArray=['#FF6347','#FF6347','#FF0000','#FF0000', '#808000', '#808000', '#00FF00', '#00FF00','#008000', '#008000', '#00FFFF', '#00FFFF','#008080', '#008080', '#FFFFCC', '#FFFFCC', '#000080', '#000080',  '#FF00FF', '#FF00FF']
 let gameValues= [];
 let tileIDs=[];
 let tilesFlipped=0;
@@ -99,18 +99,42 @@ function flipTile(tile,val){
 					if (player1Score > player2Score) {
 						
 						alert("Player 1 Wins");   
+						$('#player1Score').html('&nbsp;');
+						$('#player2Score').html('&nbsp');
+						//$('#player1P').html('&nbsp');
+						//$('#player2P').html('&nbsp');
+						$('#player1Div').css({"textShadow": ""});
+						$('#player2Div').css({"textShadow": ""});
 
 					} else if (player2Score > player1Score) {
 							
 						alert("Player 2 Wins");
+						$('#player1Score').html('&nbsp;');
+						$('#player2Score').html('&nbsp');
+						//$('#player1P').html('&nbsp');
+						//$('#player2P').html('&nbsp');
+						$('#player1Div').css({"textShadow": ""});
+						$('#player2Div').css({"textShadow": ""});
 
-					} else {
+					} else if(player2Score > player1Score) {
 						
 						alert("Game is Tie");
+						$('#player1Score').html('&nbsp;');
+						$('#player2Score').html('&nbsp');
+						//$('#player1P').html('&nbsp');
+						//$('#player2P').html('&nbsp');
+						$('#player1Div').css({"textShadow": ""});
+						$('#player2Div').css({"textShadow": ""});
 
 					};
 					// clear the board, reset the turnCount, set newBoard.
 					turnCount = 0;
+					    $('#player1Score').html('&nbsp;');
+						$('#player2Score').html('&nbsp');
+						//$('#player1P').html('&nbsp');
+						//$('#player2P').html('&nbsp');
+						$('#player1Div').css({"textShadow": ""});
+						$('#player2Div').css({"textShadow": ""});
 					newBoard(); 
 				}
 			} else {
@@ -144,20 +168,22 @@ function flipTile(tile,val){
 var currentPlayer = function(){
 	if (turnCount %2 === 0) {
 		playerID = 1;
-		// adding text shadow highlight to player 1, remove from player 2.
-		$('#player1Div').css({"textShadow": "3px 2px coral"});
+		// adding text shadow highlight to player 1
+		$('#player1Div').css({"text-shadow": "1px 1px 1px red"});
+		//$('#p1Para').css({"box-shadow": "0 0 1px 1px blue"});
 		$('#player2Div').css({"textShadow": ""});
 		
 	} else {
 		playerID = 2;
-		//if it's 2nd player's turn, highlight player 2 name and remove highlight from player 1.
-		$('#player2Div').css({"textShadow": "3px 2px coral"});
+		// adding text shadow highlight to player 2
+		// $('#player2Div').css({"textShadow": "3px 2px coral"});
+		$('#player2Div').css({"text-shadow": "1px 1px 1px red"});
 		$('#player1Div').css({"textShadow": ""});
 		console.log(playerID);
 	}
 };
 
-//  RESET BUTTON (to reloading the page)
+//  RESET BUTTON (to reload the page)
 
 $('#resetButton').on('click', function(){  
 	turnCount =0;
