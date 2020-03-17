@@ -46,3 +46,9 @@
 1. https://www.youtube.com/watch?v=c_ohDPWmsM0
 2. https://www.kirupa.com/html5/shuffling_array_js.htm
 3. https://www.w3schools.com/
+
+## Improvements/Challenges to work on:
+
+1. In Game Rule: When Player 1 wins, player 1 should continue to play. only when he does not match tiles, player 2 should get turn to play.
+
+2. At the end of the game, before the final card is flipped, game status alert is displayed. Need t fix it
