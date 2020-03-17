@@ -1,7 +1,10 @@
 html{
     background-color: lightsteelblue;
 }
-
+#gameHeading{
+    text-align:center;
+    color:grey;
+}
 #gameBoard{
     background:lightblue;
     border:#999 1px solid;
