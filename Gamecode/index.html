@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
 </head>
 <body>
-    <h1 id="gameHeading">Memory Game</h1>
+    <h2 id="gameHeading">Memory Game</h2>
     <div id="gameBoard"> </div> 
     <div><button type='reset' id="resetButton" onclick="resetButton()">Reset</button></div> 
   
@@ -20,19 +20,25 @@
    
 </div>
 <div>
-   <h4>Game Rules:</h4>
-   <p id="gameRules">  
-        1. All tiles face down.  2. Turn over any two tiles. 3. If the two tiles match, you win. <br/> 
-        4. If they don't match, turn them back over.  5. Remember what was on each tile and where it was.<br/> 
-        6. Watch and remember during the other player's turn.  7. The game is over when all the tiles have been matched.
-        8. The player with the most matches wins.
-    </p>
+   <h5>Game Rules:</h5>
+   
+       <ul id="gameRules">
+           <li>All tiles face down. Turn over any two tiles</li>
+           <li>If the two tiles match, you win. Else tiles flip over to face down</li> 
+           <li>Remember what was on each tile and where it was</li>
+           <li>Watch and remember during the other player's turn</li>
+           <li>The game is over when all the tiles have been matched</li>
+           <li>The player with the most matches wins</li>
+       </ul>
 </div>
 
-<script src="script.js"></script>
+<script src="gameArray.js"></script>
 <script>
 	$(document).ready(console.log("hi jQuery"));
- 	</script>
+     </script>
+<script src="//code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+<script src="js/jQuery.highlight.js"></script>
+     
 <script>
     newBoard()
 </script>
