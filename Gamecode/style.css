@@ -46,10 +46,13 @@ html{
     width:105px;
     margin:5px 5px 5px 5px;
     text-align: center;
-    border-radius: 10%;
-    color: grey;
+    border-radius: 0%;
+    /* color: red; */
+    text-shadow: lightgreen;
 } 
-
+#p1Para, #p2Para{
+    color: grey;
+}
 #player1Score1, #player2Score1{
     background-color: lightblue;
     height:45px;
@@ -61,7 +64,8 @@ html{
     color: grey;
 }
 #player1Score, #player2Score{
-    color:coral
+    color:rgb(182, 57, 57);
+    
 }
 #gameRules, h5{
     color: grey;
