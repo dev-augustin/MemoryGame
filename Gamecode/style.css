@@ -48,7 +48,7 @@ html{
     color: grey;
 } 
 
-#player1Score, #player2Score{
+#player1Score1, #player2Score1{
     background-color: lightblue;
     height:45px;
     width:105px;
