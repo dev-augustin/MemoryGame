@@ -51,4 +51,4 @@
 
 1. In Game Rule: When Player 1 wins, player 1 should continue to play. only when he does not match tiles, player 2 should get turn to play.
 
-2. At the end of the game, before the final card is flipped, game status alert is displayed. Need t fix it
+2. At the end of the game, before the final card is flipped, game status alert is displayed. Need to fix it
