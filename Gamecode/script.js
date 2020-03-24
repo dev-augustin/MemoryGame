@@ -19,7 +19,8 @@ Array.prototype.tileShuffle = function () {
   }
 
 
-//Credit: https://www.youtube.com/watch?v=c_ohDPWmsM0
+//Credit: https://www.youtube.com/watch?v=c_ohDPWmsM0 
+//Referred the above link and re-engineered for my design 
 console.log("on page load");
 function newBoard(){
 	console.log("newBoard Created");
@@ -71,7 +72,7 @@ function flipTile(tile,val){
 				// TurnCount is incremented and turn is passed to next player
 				turnCount ++;
 				console.log("turnCount: "+turnCount);
-            	setTimeout(currentPlayer,500);
+            	setTimeout(currentPlayer,600);
             	// increment the respective player's score
             	if (playerID ===1){
 					$('#player1Score').html(player1Score++);
@@ -129,7 +130,7 @@ function flipTile(tile,val){
 				
 				// increase the turn count, switch players.
 				turnCount ++;
-				setTimeout(currentPlayer,500);
+				setTimeout(currentPlayer,600);
 		
 
 			}
