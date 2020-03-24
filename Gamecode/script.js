@@ -18,18 +18,7 @@ Array.prototype.tileShuffle = function () {
 	}
   }
 
-// Array.prototype.tileShuffle=function(){ 
-// 	console.log("arrayProtoShuffle called");
-//     let i= this.length, j, temp;
-//     while (--i>0){
-//        j=Math.floor(Math.random() * (i+1));
-//         temp=this[j];
-//         this[j]=this[i];
-//         this[i]=temp;
-//     }
-// } // j is to generate random index and temp is to swap the values
- 
-//gameArray.tileShuffle();
+
 //Credit: https://www.youtube.com/watch?v=c_ohDPWmsM0
 console.log("on page load");
 function newBoard(){
