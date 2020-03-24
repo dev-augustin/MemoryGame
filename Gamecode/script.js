@@ -30,6 +30,7 @@ Array.prototype.tileShuffle = function () {
 // } // j is to generate random index and temp is to swap the values
  
 //gameArray.tileShuffle();
+//Credit: https://www.youtube.com/watch?v=c_ohDPWmsM0
 console.log("on page load");
 function newBoard(){
 	console.log("newBoard Created");
@@ -116,10 +117,8 @@ function flipTile(tile,val){
 					};
 					// clear the board, reset the turnCount, set newBoard.
 					turnCount = 0;
-					    $('#player1Score').html('&nbsp;');
+					        $('#player1Score').html('&nbsp;');
 						$('#player2Score').html('&nbsp');
-						//$('#player1P').html('&nbsp');
-						//$('#player2P').html('&nbsp');
 						$('#player1Div').css({"textShadow": ""});
 						$('#player2Div').css({"textShadow": ""});
 					newBoard(); 
@@ -138,13 +137,11 @@ function flipTile(tile,val){
             	    tileIDs = [];
 				}
 				setTimeout(flip2Back, 700);
-				/*new code*/
+				
 				// increase the turn count, switch players.
 				turnCount ++;
 				setTimeout(currentPlayer,500);
-			      /*ends*/
-
-
+		
 
 			}
 		}
@@ -158,13 +155,11 @@ var currentPlayer = function(){
 		console.log("playerID:" +playerID);
 		// adding text shadow highlight to player 1
 		$('#player1Div').css({"text-shadow": "1px 1px 1px red"});
-		//$('#p1Para').css({"box-shadow": "0 0 1px 1px blue"});
 		$('#player2Div').css({"textShadow": ""});
 		
 	} else {
 		playerID = 2;
 		// adding text shadow highlight to player 2
-		// $('#player2Div').css({"textShadow": "3px 2px coral"});
 		$('#player2Div').css({"text-shadow": "1px 1px 1px red"});
 		$('#player1Div').css({"textShadow": ""});
 		console.log("playerID:" +playerID);
